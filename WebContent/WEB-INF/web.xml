@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MailMatcher</display-name>
+    <servlet-name>MailMatcher</servlet-name>
+    <servlet-class>jp.webschool.javaewb.chapter03.MailMatcher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MailMatcher</servlet-name>
+    <url-pattern>/MailMatcher</url-pattern>
+  </servlet-mapping>
 </web-app>
